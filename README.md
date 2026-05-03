@@ -1,8 +1,22 @@
-For Gmail API access we need credentials.json and token.json. Also we need to enable Gmail API through https://console.cloud.google.com. 
-We can get the credentials.json file after creating a project folder in the link provided. 
+# AI-Powered Gmail Reply Assistant
 
-For the langchain access, we used OpenAI API key from https://platform.openai.com. 
+This project is a Python-based Gmail assistant that uses the Gmail API, Google OAuth 2.0, LangChain, and OpenAI LLMs to read emails, summarize content, generate AI-based reply suggestions, and send replies through a simple Flask web interface.
 
-We must add the OpenAI API key and credentials.json to the project folder in order to run the project.
+## Features
 
-Both credentials.json and OpenAI API key are confidential and unique to the programmer. Caution!!!: Don't share it to anyone.
+- Gmail OAuth authentication
+- Read and filter Gmail messages
+- Generate AI-powered email replies
+- Multiple reply tones
+- Send threaded replies
+- Send new emails with attachments
+- Summarize email and attachment content
+- Flask-based web interface
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/RahulDas1-3/fetch_gmails_project3.git
+cd fetch_gmails_project3
